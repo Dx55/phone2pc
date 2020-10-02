@@ -1,5 +1,6 @@
+
 import os, time
-path_to_watch = "Media/DCIM/100APPLE"  #idke if androed is diffrent
+path_to_watch = "/storage/emulated/0/Pictures/Screenshots"  #itoddler btfo
 before = dict ([(f, None) for f in os.listdir (path_to_watch)])
 #print(before)
 while 1:
@@ -9,7 +10,7 @@ while 1:
   #removed = [f for f in before if not f in after]
   if added:
     with open('filename', 'w') as f:
-      print('durgasoft')
+      print('durgasoft') #durgasoft doesn't code for tim coock
       f.writelines(added)
     exit(0)
   #if removed: print ("Removed: ", ", ".join (removed))
