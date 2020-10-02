@@ -1,3 +1,4 @@
+# Python 3
 import os, time
 path_to_watch = "Media/DCIM/100APPLE"  #idke if androed is diffrent
 before = dict ([(f, None) for f in os.listdir (path_to_watch)])
